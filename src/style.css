@@ -23,7 +23,7 @@ body{
 }
 
 .cardheader {
-    height: 100px;
+    /* height: 100px; */
     font-size: 70px;
     display: flex;
     justify-content: flex-start;
@@ -41,16 +41,23 @@ body{
 }
 
 .cardfooter {
-    height: 100px;
+    /* height: 100px; */
     font-size: 70px;
-    display: flex;
+    display: inline-block;
+    transform: rotate(180deg);
     justify-content: flex-end;
     align-items: flex-end;
-    padding-right: 15px;
+    padding-left: 15px;
 }
+
 
 .button {
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+    padding: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
 }
